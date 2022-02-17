@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462813647772",
+    "project_id": "tareamovil-e246a",
+    "storage_bucket": "tareamovil-e246a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462813647772:android:08930ce1cb956742016e59",
+        "android_client_info": {
+          "package_name": "com.example.tareamovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462813647772-31ab47m73k13cbplt5vc2kl8ekjqd7po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU5oFZhMXiLFkat5R-wi9QvyWhrOEsGgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462813647772-31ab47m73k13cbplt5vc2kl8ekjqd7po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
