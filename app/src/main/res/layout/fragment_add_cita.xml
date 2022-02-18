@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.cita.AddCitaFragment" >
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/msg_Nombre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/msg_Nombre" />
+
+    <EditText
+        android:id="@+id/et_Apellido1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/msg_Apellido1"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/et_Apellido2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/msg_Apellido2" />
+
+    <EditText
+        android:id="@+id/et_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/msg_Descripcion"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/et_padecimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/msg_padecimiento"
+        android:autofillHints=""/>
+
+    <Button
+        android:id="@+id/bt_agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_agregar" />
+
+</LinearLayout>

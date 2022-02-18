@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Documentos/tareaMovil/app/src/main/res/layout/activity_main.xml" value="0.22592592592592592" />
+        <entry key="..\:/Documentos/tareaMovil/app/src/main/res/layout/cita_fila.xml" value="0.6" />
         <entry key="..\:/Documentos/tareaMovil/app/src/main/res/layout/content_pantalla_inicial.xml" value="0.25" />
+        <entry key="..\:/Documentos/tareaMovil/app/src/main/res/layout/fragment_add_cita.xml" value="0.264" />
+        <entry key="..\:/Documentos/tareaMovil/app/src/main/res/layout/fragment_cita.xml" value="0.2" />
         <entry key="..\:/Documentos/tareaMovil/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
         <entry key="..\:/Documentos/tareaMovil/app/src/main/res/menu/pantalla_inicial.xml" value="0.25" />
       </map>
