@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         auth = Firebase.auth
 
 
+
         binding.btLogin.setOnClickListener {
             haceLogin();
         }
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding.btRegister.setOnClickListener {
             haceRegistro();
         }
-        //setContentView(R.layout.activity_main)
+
 
     }
 
@@ -89,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun actualiza(user: FirebaseUser?) {
         if (user != null){
-       //     var intent = Intent(this, Principal::class.java)
+         var intent = Intent(this, pantallaInicial::class.java)
             startActivity(intent)
 
         }
