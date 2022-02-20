@@ -30,10 +30,15 @@ class AddCitaFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        citaViewModel  = ViewModelProvider(this)[CitaViewModel::class.java]
         ViewModelProvider(this).get(CitaViewModel::class.java)
 
         _binding = FragmentAddCitaBinding.inflate(inflater, container, false)
 
+        binding.btAgregar.setOnClickListener{
+            addCita()
+
+        }
 
 return binding.root
     }
